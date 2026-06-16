@@ -1,20 +1,20 @@
 # =============== Unity generated folders ===============
-[Ll]Library/
-[Tt]Temp/
-[Oo]Obj/
-[Bb]Build/
-[Bb]Builds/
-[Ll]Logs/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
 UserSettings/
 MemoryCaptures/
 
 # =============== Unity cache ===============
-[Ll]Library/Artifacts/
-[Ll]Library/PackageCache/
-[Ll]Library/ScriptAssemblies/
-[Ll]Library/ShaderCache/
-[Ll]Library/SourceAssetDB/
-[Ll]Library/metadata/
+[Ll]ibrary/Artifacts/
+[Ll]ibrary/PackageCache/
+[Ll]ibrary/ScriptAssemblies/
+[Ll]ibrary/ShaderCache/
+[Ll]ibrary/SourceAssetDB/
+[Ll]ibrary/metadata/
 
 # =============== Visual Studio / Rider ===============
 .vs/
