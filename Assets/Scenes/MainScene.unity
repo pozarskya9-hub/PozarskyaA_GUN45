@@ -5317,9 +5317,65 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.topLeft.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.topLeft.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.topLeft.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.topRight.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.topRight.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.topRight.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.bottomLeft.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.bottomLeft.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.bottomLeft.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.bottomRight.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.bottomRight.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621093741570776990, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_fontColorGradient.bottomRight.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3515970490779842977, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
       propertyPath: m_Name
-      value: Canvas
+      value: GUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 6196572909720782754, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 1.9440001
       objectReference: {fileID: 0}
     - target: {fileID: 7285804377841554840, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
       propertyPath: m_Pivot.x
@@ -5404,8 +5460,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 385339084410140454, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3347452565270679425}
   m_SourcePrefab: {fileID: 100100000, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+--- !u!1 &3347452565270679423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 385339084410140454, guid: ad550799ea432ab449bd0b1df9d4b2b2, type: 3}
+  m_PrefabInstance: {fileID: 3347452565270679422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &3347452565270679425
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3347452565270679423}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 422f8c942d712bb489563f2c3d1f54ae, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 422f8c942d712bb489563f2c3d1f54ae, type: 2}
+  - {fileID: 7400000, guid: 954acdfaadc5c5d46be276fc40c06e0e, type: 2}
+  - {fileID: 7400000, guid: ccf7dd9d7a848cd4bbab20acf2c9c16c, type: 2}
+  - {fileID: 7400000, guid: 38f21520cc52be24ba281ccec6561d0a, type: 2}
+  - {fileID: 7400000, guid: 48dd827bf1e4f3843a1a0db8d0a41b77, type: 2}
+  - {fileID: 7400000, guid: 4fd6d3c9e0198ab4cb2ca58b36912679, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &3612368200446580545
 PrefabInstance:
   m_ObjectHideFlags: 0
