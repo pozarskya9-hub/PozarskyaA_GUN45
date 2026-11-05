@@ -1,0 +1,60 @@
+# =============== Unity generated folders ===============
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# =============== Unity cache inside Library ===============
+/[Ll]ibrary/Artifacts/
+/[Ll]ibrary/PackageCache/
+/[Ll]ibrary/ScriptAssemblies/
+/[Ll]ibrary/ShaderCache/
+/[Ll]ibrary/SourceAssetDB/
+/[Ll]ibrary/metadata/
+
+# =============== Visual Studio / MonoDevelop / Rider ===============
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# =============== Build artifacts & NuGet ===============
+bin/
+obj/
+packages/
+*.dll
+*.exe
+*.apk
+*.aab
+*.unitypackage
+*.nupkg
+project.lock.json
+
+# =============== Caches, logs, DBs ===============
+*.cache
+*.log
+*.db
+*.mdb
+*.opendb
+*.pdb
+
+# =============== OS generated ===============
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# =============== Crash reports ===============
+sysinfo.txt
